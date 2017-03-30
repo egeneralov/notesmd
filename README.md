@@ -1,5 +1,8 @@
 # NotesMD - Notes Site from MD
 
+# IN DEVELOPMENT
+# NOT USE FOR NOW
+
 ## Dependences
 
 apt-get install markdown
