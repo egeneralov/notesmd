@@ -1,7 +1,7 @@
 # NotesMD - Notes Site from MD
 
 # IN DEVELOPMENT
-# NOT USE FOR NOW
+## NOT USE FOR NOW
 
 ## Dependences
 
