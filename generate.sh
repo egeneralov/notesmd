@@ -8,6 +8,7 @@ mkdir -p $dir/html/blog;mkdir -p $dir/blog;mkdir -p $dir/html/images; #check dir
 echo "Old HTML removed"; # notify
 echo '' > $dir/menu.html; echo '' > $dir/html/index.html; cat $dir/header.html > $dir/html/index.html; # clear
 cat $dir/header.html > "$dir/html/index.html"; # rewrite index.html
+markdown "$dir/left.md" >> "$dir/html/index.html";
 
 for file in `ls $dir/blog`; do
 	echo "Generating blog/$file"; # Notify current file name
