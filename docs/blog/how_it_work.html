@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>NotesMD</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">NotesMD</a></h1>
+        <p>generate html blog from md</p>
+      </header>
+      <section>
+<h1>How it work</h1>
+
+<h3>Algorythm looks like that:</h3>
+
+<ol>
+<li>Script get list of files of <strong>./blog</strong> folder</li>
+<li>Purge <strong>./html</strong> folder</li>
+<li>Putting content from <strong>./header.html</strong> file to <strong>./html/index.html</strong></li>
+<li>Generating menu</li>
+<li>Generating blog and put it on folder <strong>./html/blog/name.html</strong>. In start of file putting content of <strong>./header.html</strong> and <strong>./folder.html</strong> to each file.</li>
+<li>Writing <strong>menu.html</strong> to <strong>./html/index.html</strong></li>
+<li>Putting content from <strong>./footer.html</strong> to <strong>./html/index.html</strong></li>
+</ol>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> Writed by <a href="http://github.com/egeneralov">Eduard Generalov</a> </small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
+
